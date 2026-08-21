@@ -17,9 +17,7 @@ else:
     element_index = ((yr - 1900) // 2) % 5
 
     print(f"Your Chinese Zodiac sign is: {zodiac[zodiac_index]}")```
-# Output
-<img width="323" height="64" alt="image" src="https://github.com/user-attachments/assets/629f4968-b53b-4aee-9596-83eb392f3865" />
 ```
 # Output
 
-<img width="293" height="68" alt="image" src="https://github.com/user-attachments/assets/1faeb097-60d4-4774-a6a6-e644096ab370" />
+<img width="400" height="90" alt="image" src="https://github.com/user-attachments/assets/1faeb097-60d4-4774-a6a6-e644096ab370" />
