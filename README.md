@@ -1,3 +1,3 @@
 # 9magnesiumcs3
 
-[Chinese Zodiac](zodiacMagnesiumLN.md)
+[Chinese Zodiac](zodiacMagnesiumLN)
