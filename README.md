@@ -3,4 +3,4 @@
 **SECTION:** Magnesium
 # Quarter 1
 ## Activities:
-- [View My Chinese Zodiac Calculator Code](zodiacMagnesiumLN)
+- View my [Chinese Zodiac Calculator code](q1/zodiacMagnesiumLN.py)
