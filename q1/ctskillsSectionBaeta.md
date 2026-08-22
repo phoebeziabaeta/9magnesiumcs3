@@ -18,3 +18,31 @@ The current system used is unnecessarily time-consuming and vulnerable to errors
 | Stock tracking | Algorithm and Decomposition | List down all the items in stock and develop a program that updates the stock data using mathematical equations. |
 ## Step 4: Draw a flowchart or write a pseudocode for the identified sub-problem
 **Sub-Problem chosen:** Manual Calculation
+```python
+def run_cashier_system():
+    menu = {
+        "sandwich": 40.00,
+        "milo": 25.00,
+        "water": 15.00,
+        "pizza slice": 60.00,
+        "cracklings": 9.00
+    }
+    
+    total_price = 0
+    print("Available items:", ", ".join(menu))
+
+    while True:
+        item = input("Enter item (or 'done'): ").strip().lower()
+        if item == "done":
+            break
+
+        if item in menu:
+            total_price += menu[item]
+        else:
+            print("Invalid input")
+
+    print(f"Total: ${total_price:.2f}")
+
+run_cashier_system()
+
+```
