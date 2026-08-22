@@ -17,4 +17,4 @@ The current system used is unnecessarily time-consuming and vulnerable to errors
 | Manual calculation | Algorithm, Pattern Recognition, and Abstraction | Create a program where the cashier only needs to type the order and simply receives a total price. This can be done by using the algorithm skill to create an organized and simple calculator program, then applying pattern recognition to keep track of products and their prices, and lastly abstraction to hide the calculations and only give the total amount. |
 | Stock tracking | Algorithm and Decomposition | List down all the items in stock and develop a program that updates the stock data using mathematical equations. |
 ## Step 4: Draw a flowchart or write a pseudocode for the identified sub-problem
-**Sub-Problem chosen:** Manual Calculation
+**Sub-Problem chosen:** Order decision delays
