@@ -3,7 +3,7 @@
   - Validate user input that it should not be earlier than 1900.
   - If the user enters an invalid year then display an appropriate message then stop or abort the program.
 # Code
-```
+```python
 import sys
 
 yr = int(input("Enter year of birth (not earlier than 1900): "))```
