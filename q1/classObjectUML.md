@@ -15,7 +15,9 @@
 | present() | Displays amount of members present |
 | updatePresent(present: int) | Updates present() if the amount of members present changes |
 ## Class Diagram
-![Class Diagram](images/classDiagram.png)
+<img width="246" height="226" alt="image" src="https://github.com/user-attachments/assets/514aa322-3118-41bc-9e0f-a16c22277a52" />
+
+
 ## Design Explanation
 ### Why did you choose this class? 
 **Answer:** I chose this class because it is something I am already familiar with, which made deciding the properties and methods easier and quicker.
