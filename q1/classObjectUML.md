@@ -15,7 +15,7 @@
 | present() | Displays amount of members present |
 | updatePresent(present: int) | Updates present() if the amount of members present changes |
 ## Class Diagram
-<img width="246" height="226" alt="image" src="https://github.com/user-attachments/assets/514aa322-3118-41bc-9e0f-a16c22277a52" />
+<img width="247" height="227" alt="Screenshot 2026-09-07 194809" src="https://github.com/user-attachments/assets/7081d7bf-a2bb-43da-a737-63442270581c" />
 
 
 ## Design Explanation
@@ -27,7 +27,4 @@
 **Answer:** updatePresent(present: int), because it helps with keeping track of the members present.
 
 
-
-
-
-No major changes were needed from my original design.
+***No major changes were needed from my original design.***
