@@ -12,8 +12,8 @@
 ## Methods
 | Method | Description |
 |---|---|
-| members() | Displays the list of members |
-| present() | Displays amount of members present |
+| list_members() | Displays the list of members |
+| list_present() | Displays amount of members present |
 | updatePresent(present: int) | Updates present() if the amount of members present changes |
 ## Class Diagram
 <img width="348" height="390" alt="image" src="https://github.com/user-attachments/assets/d04e4720-dd2f-4f95-84ab-4bfe716b7d42" />
