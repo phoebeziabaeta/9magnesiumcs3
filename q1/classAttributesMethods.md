@@ -12,7 +12,7 @@ Describe any changes made to your original class.
 | | | | |
 | | | | |
 ## Updated UML Class Diagram
-![Class Diagram](images/classDiagramSG5.png)
+![<img width="247" height="227" alt="Screenshot 2026-09-07 194809" src="https://github.com/user-attachments/assets/7081d7bf-a2bb-43da-a737-63442270581c" />
 ## Python Implementation
 
 [View Python Source](classImplementation.py)
