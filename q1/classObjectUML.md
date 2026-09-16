@@ -16,7 +16,7 @@
 | present() | Displays amount of members present |
 | updatePresent(present: int) | Updates present() if the amount of members present changes |
 ## Class Diagram
-<img width="247" height="227" alt="Screenshot 2026-09-07 194809" src="https://github.com/user-attachments/assets/7081d7bf-a2bb-43da-a737-63442270581c" />
+<img width="348" height="390" alt="image" src="https://github.com/user-attachments/assets/d04e4720-dd2f-4f95-84ab-4bfe716b7d42" />
 
 
 ## Design Explanation
