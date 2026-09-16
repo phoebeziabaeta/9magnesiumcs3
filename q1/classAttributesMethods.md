@@ -13,7 +13,7 @@ Describe any changes made to your original class.
 | excused | boolean | Public | Displays every excused absent member |
 | members() | string | Public | Displays the list of members |
 | present() | integer | Public | Displays amount of members present |
-| updatePresent() | Private |	Updates present() if the amount of members present changes |
+| updatePresent() | integer | Private |	Updates present() if the amount of members present changes |
 
 ## Updated UML Class Diagram
 <img width="346" height="392" alt="image" src="https://github.com/user-attachments/assets/05d77c02-85c5-4fce-84d3-8ca86379ac8f" />
