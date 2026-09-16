@@ -3,7 +3,7 @@
 Link to my previous activity:
 [classObjectUML.md](classObjectUML.md)
 ## Design Revision
-Describe any changes made to your original class.
+I changed the names for methods members() and present(), changing them to list_members() and list_present() for more efficiency and to be more specific.
 ## Visibility Decisions
 | Attribute | Data Type | Visibility | Why Public/Private? |
 |---|---|---|---|
@@ -16,7 +16,8 @@ Describe any changes made to your original class.
 | updatePresent() | integer | Private |	Updates present() if the amount of members present changes |
 
 ## Updated UML Class Diagram
-<img width="346" height="392" alt="image" src="https://github.com/user-attachments/assets/05d77c02-85c5-4fce-84d3-8ca86379ac8f" />
+<img width="247" height="227" alt="image" src="https://github.com/user-attachments/assets/881ba0a3-0045-495a-9fb7-e5703a4a07ab" />
+
 
 ## Python Implementation
 
