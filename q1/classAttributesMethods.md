@@ -16,7 +16,8 @@ Describe any changes made to your original class.
 | updatePresent() | Private |	Updates present() if the amount of members present changes |
 
 ## Updated UML Class Diagram
-![<img width="247" height="227" alt="Screenshot 2026-09-07 194809" src="https://github.com/user-attachments/assets/7081d7bf-a2bb-43da-a737-63442270581c" />
+<img width="346" height="392" alt="image" src="https://github.com/user-attachments/assets/05d77c02-85c5-4fce-84d3-8ca86379ac8f" />
+
 ## Python Implementation
 
 [View Python Source](classImplementation.py)
