@@ -5,12 +5,14 @@ Link to my previous activity:
 ## Design Revision
 Describe any changes made to your original class.
 ## Visibility Decisions
-| Attribute | Data Type | Visibility | Reason |
+|| Attribute | Data Type | Visibility | Why Public/Private? |
 |---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
-| | | | |
+| names | string | Public | Displays every member's name |
+| date | integer | Public | Displays date of attendance checking |
+| present | integer | Public | Displays every member present |
+| excused | boolean | Public | Displays every excused absent member |
+| 
+
 ## Updated UML Class Diagram
 ![<img width="247" height="227" alt="Screenshot 2026-09-07 194809" src="https://github.com/user-attachments/assets/7081d7bf-a2bb-43da-a737-63442270581c" />
 ## Python Implementation
