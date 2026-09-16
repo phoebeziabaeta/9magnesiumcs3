@@ -22,7 +22,8 @@ Describe any changes made to your original class.
 
 [View Python Source](classImplementation.py)
 ## Test Run
-![Test Run](images/classTestRun.png)
+<img width="792" height="339" alt="image" src="https://github.com/user-attachments/assets/56e45899-880f-4725-a355-aa621242606d" />
+
 ## Object Diagram
 ![Object Diagram](images/objectDiagram.png)
 ## Analysis
