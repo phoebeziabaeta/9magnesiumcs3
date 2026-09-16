@@ -11,8 +11,8 @@ Describe any changes made to your original class.
 | date | integer | Public | Displays date of attendance checking |
 | present | integer | Public | Displays every member present |
 | excused | boolean | Public | Displays every excused absent member |
-| members() | string | Public | Displays the list of members |
-| present() | integer | Public | Displays amount of members present |
+| list_members() | string | Public | Displays the list of members |
+| list_present() | integer | Public | Displays amount of members present |
 | updatePresent() | integer | Private |	Updates present() if the amount of members present changes |
 
 ## Updated UML Class Diagram
