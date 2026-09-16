@@ -20,8 +20,8 @@ I changed the names for methods members() and present(), changing them to list_m
 
 
 ## Python Implementation
-
-[View Python Source](classImplementation.py)
+Link to code:
+[Class Implementation](classImplementation.py)
 ## Test Run
 <img width="792" height="339" alt="image" src="https://github.com/user-attachments/assets/56e45899-880f-4725-a355-aa621242606d" />
 
@@ -29,6 +29,7 @@ I changed the names for methods members() and present(), changing them to list_m
 ![Object Diagram](images/objectDiagram.png)
 ## Analysis
 ### Why did you make your chosen attribute private?
+- I made updatePresent() private because the method computes every change in the amount of present, or list_present(), which is not necessary for the user to see.
 ### Which method changes the state of your object?
 ### How did your two objects demonstrate that instances are independent?
 ### What is the difference between your class diagram and your object diagram?
