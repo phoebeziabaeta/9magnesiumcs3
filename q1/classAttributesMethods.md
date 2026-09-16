@@ -5,13 +5,15 @@ Link to my previous activity:
 ## Design Revision
 Describe any changes made to your original class.
 ## Visibility Decisions
-|| Attribute | Data Type | Visibility | Why Public/Private? |
+| Attribute | Data Type | Visibility | Why Public/Private? |
 |---|---|---|---|
 | names | string | Public | Displays every member's name |
 | date | integer | Public | Displays date of attendance checking |
 | present | integer | Public | Displays every member present |
 | excused | boolean | Public | Displays every excused absent member |
-| 
+| members() | string | Public | Displays the list of members |
+| present() | integer | Public | Displays amount of members present |
+| updatePresent() | Private |	Updates present() if the amount of members present changes |
 
 ## Updated UML Class Diagram
 ![<img width="247" height="227" alt="Screenshot 2026-09-07 194809" src="https://github.com/user-attachments/assets/7081d7bf-a2bb-43da-a737-63442270581c" />
