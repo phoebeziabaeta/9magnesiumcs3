@@ -9,3 +9,5 @@
 - View my [ILA 3-1: The Four Pillars of OOP output](q1/ila_oop.md)
 - View my [Computational Thinking Exercise output](q1/ctskillsMagnesiumBaeta.md)
 - View my [OOPACT output](q1/classObjectUML.md)
+          - Click here for the [Class Implementation code](q1/classImplementation.py)
+          - Click here for the [Class Attributes Methods](q1/classAttributesMethods.md)
