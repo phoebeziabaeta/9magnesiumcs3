@@ -8,14 +8,6 @@
 | date | integer | The date of when the attendance was checked |
 | present | integer | Amount of members present |
 | excused | boolean | Shows if the member/s' absence is excused |
-##
-| Attribute | Data Type | Visibility | Why Public/Private? |
-|---|---|---|---|
-| names | string | Public | Displays every member's name |
-| date | integer | Public | Displays date of attendance checking |
-| present | integer | Public | Displays every member present |
-| excused | boolean | Public | Displays every excused absent member |
-
 
 ## Methods
 | Method | Description |
