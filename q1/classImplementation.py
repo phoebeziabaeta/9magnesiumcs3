@@ -1,12 +1,14 @@
 class attendancesheet:
-    members = []
-    pres = []
-
     def __init__(self, names, date, present, excused):
-        self.names = names
+        self.names = [name.strip() for name in names.split(",")] if isinstance(names, str) else list(names)
         self.date = date
-        self.__present__ = max(0, present)
-        self.excused = excused
+        self.__present__ = min(len(self.names), max(0, present))
+        self.excused = max(0, excused)
+
+    def __str__(self):
+        return (f"Attendance sheet ({self.date}): "
+                f"{self.__present__}/{len(self.names)} present, "
+                f"{self.excused} excused")
 
     def list_members(self):
         print(f"List of members:\n{'\n'.join(self.names)}")
@@ -18,28 +20,24 @@ class attendancesheet:
         print("")
         return len(pres)
 
-    def updatePresent(self, present):
-        self.__present__ = present
-        update = input("Do you want to update the amount of members present? (yes/no): ")
-        if update.lower() == "yes":
-            new_present = int(input("Enter the new amount of members present: "))
-            self.__present__ = max(0, new_present)
-        else:
-            print("No one has left or arrived.")
-        print(f"Updated amount of members present: {self.__present__}")
+    def updatePresent(self, updated_present):
+        self.__present__ = min(len(self.names), max(0, updated_present))
         return self.__present__
 
+rec_at1 = attendancesheet("Roffee, Zia, Thumper, Bob", "2024-06-15", 3, 0)
+rec_at2 = attendancesheet("Rom, CJ, Six", "2024-06-15", 2, 1)
 
-memb = input("Enter list of members (separate by spaces): ")
-members = memb.split()
+print("---BEFORE---")
+print(" ")
+print(f"recorded attendance 1: {rec_at1}")
+print(f"recorded attendance 2: {rec_at2}")
+rec_at1.updatePresent(4)
 
-memb2 = input("Enter list of members present separate by spaces: ")
-pres = memb2.split()
-      
-exc = input("Enter list of members excused separate by spaces: ")
-excused = exc.split()
+print(" ")
+print("---AFTER---")
+print(" ")
 
-sheet = attendancesheet(members, "2023-10-01", len(pres), len(excused))
-sheet.list_members()
-sheet.list_present(pres)
-sheet.updatePresent(len(pres))
+print(f"data of recorded attendance 1: {rec_at1}")
+print(f"data of recorded attendance 2: {rec_at2}")
+print(" ")
+print("---END---")
