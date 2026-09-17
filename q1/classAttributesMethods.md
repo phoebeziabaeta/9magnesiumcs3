@@ -23,13 +23,18 @@ I changed the names for methods members() and present(), changing them to list_m
 Link to code:
 [Class Implementation](classImplementation.py)
 ## Test Run
-<img width="792" height="339" alt="image" src="https://github.com/user-attachments/assets/56e45899-880f-4725-a355-aa621242606d" />
+<img width="639" height="194" alt="image" src="https://github.com/user-attachments/assets/f9c62484-284f-462c-b70b-6a2020db9fbf" />
+
 
 ## Object Diagram
-![Object Diagram](images/objectDiagram.png)
+<img width="389" height="313" alt="image" src="https://github.com/user-attachments/assets/e1876118-81be-42f8-85dc-371936a3b243" />
+
 ## Analysis
 ### Why did you make your chosen attribute private?
 - I made updatePresent() private because the method computes every change in the amount of present, or list_present(), which is not necessary for the user to see.
 ### Which method changes the state of your object?
+- The method that changes the state of object 1 is updatePresent(). It affects the attribute "present", changing its value if a student leaves or arrives in the club venue.
 ### How did your two objects demonstrate that instances are independent?
+- Since each object stored its own variables and were not created dependently to each other, changing the state of object 1, "recorded attendance 1", does not affect object 2, "recorded attendance 2."
 ### What is the difference between your class diagram and your object diagram?
+- The class diagram shows the attributes in the attendance sheet, which contribute to a functioning system or "blueprint." The object diagram shows the two objects that used that blueprint.
