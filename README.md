@@ -11,3 +11,7 @@
 - View my [OOPACT output](q1/classObjectUML.md)
   -  Click here for the [Class Implementation code](q1/classImplementation.py)
   -  Click here for the [Class Attributes Methods](q1/classAttributesMethods.md)
+  -  Click here for the [initial class diagram](q1/images/classDiagram.png)
+  -  Click here for the [updated class diagram](q1/images/classDiagramSG5.png)
+  -  Click here for the [Class Implementation test run](q1/images/classTestRun.png)
+  -  Click here for the [Object Diagram](q1/images/objectDiagram.png)
