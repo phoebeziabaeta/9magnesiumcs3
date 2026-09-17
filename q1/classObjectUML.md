@@ -26,6 +26,3 @@
 **Answer:** The names property, because you could check the attendance with that property alone by doing a roll call, the others are there to make things easier and organized.
 ### Which method is the most useful? Why?
 **Answer:** updatePresent(present: int), because it helps with keeping track of the members present.
-
-
-***No major changes were needed from my original design.***
