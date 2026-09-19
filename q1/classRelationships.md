@@ -1,24 +1,34 @@
 # Class Relationships: Association and Multiplicity
 ## Previous Work
 [Part I - Classes and Objects](classObjectUML.md)
+
+
 [Part II - Class Attributes and Methods](classAttributesMethods.md)
 ## Existing Class
 Class: Attendance Sheet
+
+
 Description: School club sheet for attendance checking
 ## New Related Class
-Class:
-Description:
-## Association
-Relationship:
-Explanation:
-## Multiplicity
+Class: Record Book
 
-Multiplicity:
-Explanation:
+
+Description: Records of every time the attendance was checked
+## Association
+Relationship: Manages
+
+
+Explanation: The record book manages the attendance sheet data
+## Multiplicity
+Multiplicity: 0..*
+
+
+Explanation: A record book typically contains many pieces of data, which are typically in the form of records. Since these records often classify as objects, the class can have zero or more depending on how much data has been or is being recorded.
 ## UML Class Relationship Diagram
-![Class Relationship Diagram](images/classRelationshipDiagram.png)
+<img width="164" height="323" alt="image" src="https://github.com/user-attachments/assets/455a58d3-96bb-4c16-80f4-dfd74b8007ff" />
+
 ## Python Implementation
-[View Python Source](classRelationships.py)
+View [Python Source](classRelationships.py)
 ## Test Run
 ![Relationship Test Run](images/relationshipTestRun.png)
 ## Object Relationship Diagram
