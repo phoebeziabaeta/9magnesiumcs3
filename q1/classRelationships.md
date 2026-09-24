@@ -25,7 +25,8 @@ Multiplicity: 0..*
 
 Explanation: A record book typically contains many pieces of data, which are typically in the form of records. Since these records often classify as objects, the class can have zero or more depending on how much data has been or is being recorded.
 ## UML Class Relationship Diagram
-<img width="164" height="323" alt="image" src="https://github.com/user-attachments/assets/455a58d3-96bb-4c16-80f4-dfd74b8007ff" />
+<img width="169" height="324" alt="image" src="https://github.com/user-attachments/assets/6759a226-6d9f-4845-ad30-29a52d045edf" />
+
 
 ## Python Implementation
 View [Python Source](classRelationships.py)
