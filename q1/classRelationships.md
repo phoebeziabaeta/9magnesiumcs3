@@ -31,12 +31,17 @@ Explanation: A record book typically contains many pieces of data, which are typ
 ## Python Implementation
 View [Python Source](classRelationships.py)
 ## Test Run
-![Relationship Test Run](images/relationshipTestRun.png)
+<img width="554" height="326" alt="image" src="https://github.com/user-attachments/assets/75202506-ce1d-4ed4-bf84-8d2c1e6c565c" />
+
 ## Object Relationship Diagram
 ![Object Relationship Diagram](images/objectRelationshipDiagram.png)
 ## Analysis
 ### What is the association between your two classes?
+- My first class, Attendance Sheet, is managed by my Record Book class. 
 ### What multiplicity did you choose and why?
+- I chose the one-to-many multiplicity, because it fit with the classes' relationship logically. A record book can contain either zero or many attendance sheets as records.
 ### How did you implement the relationship in Python?
+- 
 ### Why did you store an object reference instead of copying its data?
 ### If your relationship uses many, why is a list appropriate?
+- So that storing data and adding onto that existing data is easier and more effective.
