@@ -17,4 +17,4 @@
   - Click here for the [Object Diagram](q1/images/objectDiagram.png)
 - View my [OOPACT 3 output](q1/classRelationships.md)
   - Click here for the [source code](q1/classRelationships.py)
-  - Click here for the [Class Relationship Diagram](q1/classRelationshipsDiagram.png)
+  - Click here for the [Class Relationship Diagram](q1/images/classRelationshipsDiagram.png)
