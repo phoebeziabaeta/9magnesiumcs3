@@ -41,7 +41,8 @@ View [Python Source](classRelationships.py)
 ### What multiplicity did you choose and why?
 - I chose the one-to-many multiplicity, because it fit with the classes' relationship logically. A record book can contain either zero or many attendance sheets as records.
 ### How did you implement the relationship in Python?
-- 
+- I implemented the relationship by making it so that the two classes have a way to interact with each other by making Record Book store Attendance Sheets.
 ### Why did you store an object reference instead of copying its data?
+- In order to create an actual connection/relationship between the objects.
 ### If your relationship uses many, why is a list appropriate?
 - So that storing data and adding onto that existing data is easier and more effective.
