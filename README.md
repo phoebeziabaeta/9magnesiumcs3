@@ -18,3 +18,8 @@
 - View my [OOPACT 3 output](q1/classRelationships.md)
   - Click here for the [source code](q1/classRelationships.py)
   - Click here for the [Class Relationship Diagram](q1/images/classRelationshipsDiagram.png)
+
+
+# Quarter 2
+## Activities:
+- View my [Encapsulation output](q2/sg8_encapsulation.py)
