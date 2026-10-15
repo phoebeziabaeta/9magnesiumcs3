@@ -23,3 +23,4 @@
 # Quarter 2
 ## Activities:
 - View my [Encapsulation output](q2/sg8_encapsulation.py)
+  - Click here for the [Test Run](q2/encapsulation_documentation.png)
