@@ -27,4 +27,5 @@
 - View my [Zoo Management System](q2/zoo_management.py)
 - View my [Activity 1: Enhanced Hospital Billing System](q2/enhanced_hospital_billing_system.py)
   - Click here for the [Test Run](q2/enhanced_hospital_system_testrun)
-
+- View my [Activity 2: Duck typing](q2/activity2_questions.md)
+  - Click here for the [code](q2/activity2_code.py)
